@@ -9,6 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +20,53 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div>
+        <nav class="navbar navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Steven Vo</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+    </div>
+    
+    <div class="container">
+      <div class="starter-template">
+        <h1>I build websites. Like this one, for example.</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h2><i class="fa fa-check"></i> &nbsp; I'm a front-end web developer.</h2>
+            <p class="expertise">I write HTML, client-side JavaScript, and CSS. I use AngularJS, jQuery, and Bootstrap.</p>
+            
+            <h2><i class="fa fa-check"></i> &nbsp; I'm also a back-end web developer.</h2>
+            <p class="expertise">I write Ruby, and server-side JavaScript. I design APIs and database schema.</p>
+            
+            <h2><i class="fa fa-exclamation"></i> &nbsp; I'm a limited sysadmin.</h2>
+            <p class="expertise">DevOps? Yes. On-call 24/7? No.</p>
+            
+            <h2><i class="fa fa-times"></i> &nbsp; I'm a designer-wannabe.</h2>
+            <p class="expertise">I appreciate beautiful designs. But I rely a lot on the designer for layout, graphics, buttons.</p>
+            
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

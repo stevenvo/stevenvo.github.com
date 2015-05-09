@@ -1,0 +1,24 @@
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.expertise {
+    margin-left: 58px;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-exclamation {
+  color: orange;
+}
+
+.fa-times {
+  color: red;
+}
